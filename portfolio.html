@@ -7,38 +7,10 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 
-<!-- * Using Bootstrap, develop your portfolio site with the following items:
-
-   * A navbar
-
-   * A responsive layout
-
-   * Responsive images
-
-  * The Bootstrap portfolio should minimize the use of media queries. 
-
-  * Functional, deployed application
-
-  * GitHub repository with README describing the project
-
-  * Navbar must be consistent on each page.
-
-  * Navbar on each page must contain links to Home/About, Contact, and Portfolio pages.
-
-  * All links must work.
-
-  * Must use semantic html.
-
-  * Each page must have valid and correct HTML. (use a validation service)
-
-  * Must contain your personalized information. (bio, name, images, links to social media, etc.)
-
-  * Must properly utilize Bootstrap components and grid system.  -->
-
 
 <body>
   <!-- Default NavBar --> 
-  <nav class="navbar navbar-expand-sm navbar-light bg-light">
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
     <!-- Navbar Brand -->
     <h1>
       <a style="font-size:32px" class="navbar-brand ml-5" href="#">Nathan Vu</a>
@@ -67,30 +39,54 @@
 
   
   
-  <!-- About Me Card -->
+  <!-- Portfolio Card -->
   <div class="row justify-content-center mt-3">
     <div class="card" style="width: 85%;">
-      <!-- About Me Header -->
+      <!-- Portfoio Header -->
       <div class="card-body">
-        <h3 style="color:#4169e1" class="card-title">About Me</h5>
+        <h3 style="color:#4169e1" class="card-title">Portfolio</h5>
         <!-- Horizontal Page Break -->
         <hr></hr>
       </div>
       
-      <div class="row">
-        <div class="col-md-3">
-          <div class="card-body">
-            <img src="https://avatars0.githubusercontent.com/u/29564904?s=460&v=4" style="width:200px" class="card-img-top" alt="Picture of me!">
+      <!-- Grid of Portfolio Cards -->
+      <div class="row row-cols-1 row-cols-md-2 ml-1 mr-2 mb-5">
+        <div class="col mb-4">
+          <div class="card">
+            <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=1.00xw:0.669xh;0,0.190xh&resize=1200:*" 
+            class="card-img-top" style="height:300px; width:auto" alt="puppy">
+            <div class="card-body">
+              <h5 class="card-title">wow.. dogs!</h5>
+            </div>
           </div>
         </div>
-        
-        <div class="col-md-8">
-          <div class="card-body">
-            <p style="font-size:18px" class="card-text">Hi I'm Nathan and I'm a recent graduate from the University of California, San Diego where I studied economics. I am currently learning about web development 
-              and am hoping to have a career in UI/UX design in my future where I can merge my interests in design and web-based technology. When I'm not in class or working you'll probably
-                find me at the local climbing gym, biking steep hills around my neighborhood, or going on a brisk hike. </p>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="https://www.visittucson.org/sites/default/files/styles/hero/public/mountain-climber-cliff-rock4.jpg?itok=8hvGsdcT" style="height:300px; width:auto" class="card-img-top" alt="Climbing">
+            <div class="card-body">
+              <h5 class="card-title">Climbing</h5>
+            </div>
           </div>
         </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="https://ueat.utoronto.ca/wp-content/uploads/2017/01/Latte-glass-600w.jpg" 
+            style="height:300px; width:auto" class="card-img-top" alt="Coffee">
+            <div class="card-body">
+              <h5 class="card-title">Coffee Brewing</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Glasshouse-philip-johnson.jpg" style="height:300px; width:auto" class="card-img-top" alt="Glasshouse">
+            <div class="card-body">
+              <h5 class="card-title">I Didn't Make This But It's One Of My Favorite Buildings!</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      
       </div>
     </div> 
   </div>
