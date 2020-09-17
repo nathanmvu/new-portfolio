@@ -9,9 +9,10 @@ This is my new updated portfolio purely utilizing the Bootstrap CSS design libra
 Using the deployed link for the website will allow the viewer to navigate around my Bootstrap portfolio and test the responsive webpage by resizing the window. 
 
 ## Built With
-[HTML]
-[CSS]
-[Javascript]
+
+* HTML
+* CSS
+* Javascript
 
 ## Deployed Link
 
