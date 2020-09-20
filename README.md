@@ -9,6 +9,7 @@ This is my new updated portfolio purely utilizing the Bootstrap CSS design libra
 Using the deployed link for the website will allow the viewer to navigate around my Bootstrap portfolio and test the responsive webpage by resizing the window. 
 
 Here are some screenshots of the webpage at various sizes.
+
 Full-screen:
 ![largeAbout](./images/largeAbout.png/ "Fullscreen About Me")
 ![largePortfolio](./images/largePortfolio.png/ "Fullscreen Portfolio")
@@ -29,6 +30,7 @@ Small-sized:
 * HTML
 * CSS
 * Javascript
+* Bootstrap
 
 ## Deployed Link
 
