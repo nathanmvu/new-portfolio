@@ -11,19 +11,19 @@ Using the deployed link for the website will allow the viewer to navigate around
 Here are some screenshots of the webpage at various sizes.
 
 Full-screen:
-![largeAbout](./images/largeAbout.png/ "Fullscreen About Me")
-![largePortfolio](./images/largePortfolio.png/ "Fullscreen Portfolio")
-![largeContact](./images/largeContact.png/ "Fullscreen Contact")
+![largeAbout](./assets/img/largeAbout.png/ "Fullscreen About Me")
+![largePortfolio](./assets/img/largePortfolio.png/ "Fullscreen Portfolio")
+![largeContact](./assets/img/largeContact.png/ "Fullscreen Contact")
 
 Medium-sized:
-![mediumAbout](./images/mediumAbout.png/ "Medium About Me")
-![mediumPortfolio](./images/mediumPortfolio.png/ "Medium Portfolio")
-![mediumContact](./images/mediumContact.png/ "Medium Contact")
+![mediumAbout](./assets/img/mediumAbout.png/ "Medium About Me")
+![mediumPortfolio](./assets/img/mediumPortfolio.png/ "Medium Portfolio")
+![mediumContact](./assets/img/mediumContact.png/ "Medium Contact")
 
 Small-sized:
-![smallAbout](./images/smallAbout.png/ "Small About Me")
-![smallPortfolio](./images/smallPortfolio.png/ "Small Portfolio")
-![smallContact](./images/smallContact.png/ "Small Contact")
+![smallAbout](./assets/img/smallAbout.png/ "Small About Me")
+![smallPortfolio](./assets/img/smallPortfolio.png/ "Small Portfolio")
+![smallContact](./assets/img/smallContact.png/ "Small Contact")
 
 ## Built With
 
